@@ -1,0 +1,11 @@
+public class FightingPlane extends AllPlanes {
+
+	public FightingPlane(String planeID, int totalEnginePower) {
+		super(planeID, totalEnginePower);
+	}
+
+	public void launchMissile() {
+		System.out.println("PlaneID " + getPlaneID()
+				+ " - Initiating missile launch procedure - Acquiring target - Launching missile - Breaking away - Missile launch complete");
+	}
+}
